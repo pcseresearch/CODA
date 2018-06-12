@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="2427"
+   name=""
+   committed-date="2007-02-27T20:21:04.806933Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/.rccoda/.uid"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="2427"
+   name=".remoteid.txt"
+   text-time="2007-10-30T18:39:57.000000Z"
+   committed-date="2007-02-27T20:21:04.806933Z"
+   checksum="88372645fdbe9271f74c50b01f152004"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2007-10-30T18:39:57.000000Z"/>
+</wc-entries>

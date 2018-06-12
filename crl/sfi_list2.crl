@@ -1,0 +1,125 @@
+#  Source for readout of Lecroy FASTBUS 1881M ADC
+#  using a Struck SFI and Radstone PPC604 VME controller.  
+#  External triggering comes from FB AUX card using Polling
+#
+#    David Abbott, CEBAF 1996
+
+readout list SFI
+maximum 1024,500
+sfi readout
+ts control
+
+const SFI_ADDR  = hex e00000
+const IRQ_SOURCE_MASK = 0x10
+
+extern int bigendian_out;
+
+begin download
+
+  variable res, laddr
+
+# If the ROC is sending data to Little-Endian EB
+# e.g. a x86 Linux CPU then bigendian_out = 0.
+# Unless the ROC is also running on a Little-Endian
+# machine. Then set bigendian_out=1.
+  bigendian_out = 0;
+
+
+# Setup SFI pointers to Enable triggers, and establish
+# DMA address offsets
+%%
+  res = (unsigned long) sysBusToLocalAdrs(0x39,SFI_ADDR,&laddr);
+  if (res != 0) {
+     printf("Error Initializing SFI res=%d \n",res);
+  } else {
+     printf("Calling InitSFI() routine with laddr=0x%x.\n",laddr);
+     InitSFI(laddr);
+  }
+%%
+
+# Initialize AUX Card
+  sfiAuxInit();
+
+  
+  log inform "User Download Executed"
+
+end download
+    
+begin prestart
+
+  variable jj, adc_id
+
+  log inform "Entering User Prestart"
+
+  init trig source SFI
+  link async trig source SFI 1 to davetrig and davetrig_done
+  event type 1 then read SFI 1
+
+# For Interrupt driven triggers
+  sfiTrigSource = IRQ_SOURCE_MASK;
+
+  reset crate 0
+
+  log inform "User Prestart Executed"
+
+end prestart
+
+begin end
+
+  CDODISABLE(SFI,1,IRQ_SOURCE_MASK);
+
+  log inform "User End Executed"
+
+end end
+
+begin pause
+
+  CDODISABLE(SFI,1,IRQ_SOURCE_MASK);
+
+  log inform "User Pause Executed"
+
+end pause
+
+begin go
+  
+  log inform "Entering User Go"
+
+  CDOENABLE(SFI,1,IRQ_SOURCE_MASK);
+
+end go
+
+begin trigger davetrig
+
+  variable ii, datascan, event_ty, event_no, temp_type
+
+# Enable SFI Sequencer
+  *sfi.sequencerEnable = 1;
+
+ rol->dabufp = (long *) 0;
+ open event type EVTYPE of BT_UI4
+
+  output hex da000011
+#  rol->dabufp += 10;
+  output hex da0000ff
+
+ close event
+
+end trigger
+
+begin done davetrig
+
+
+end done
+
+begin done
+
+# Acknowledge B42 Interrupt
+  CDOACK(SFI,1,IRQ_SOURCE_MASK);
+
+end done
+
+begin status
+
+end status
+
+

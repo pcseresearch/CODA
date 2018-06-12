@@ -1,0 +1,175 @@
+JLoox 2.0.2
+"UTF8"
+A 0 0 0 0 $ 1 B $ $ 0
+!
+"Default" 0 32
+0 0 001
+1
+"0" 1
+
+9
+
+com.loox.jloox.LxGroup
+"roc" 111101100 30;12;68.037109;54.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"roc" 111101100 12.886208;0;39.374525;32.300628 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/hub2.gif"
+
+com.loox.jloox.LxText
+"roc-name" 111101100 26.488317;32.921794;14.814385;5.474025 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "ROC"
+
+
+
+com.loox.jloox.LxGroup
+"er" 111101100 30;140;62.037109;56.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"er" 111101100 11.74981;0;35.902197;33.494529 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/8mm.gif"
+
+com.loox.jloox.LxText
+"er-name" 111101100 24.152387;34.138655;13.507946;5.676357 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "ER"
+
+
+
+com.loox.jloox.LxGroup
+"eb" 111101100 30;76;64.037109;55.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"eb" 111101100 12.128609;0;37.059639;32.897578 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/macint.gif"
+
+com.loox.jloox.LxText
+"eb-name" 111101100 24.93103;33.530224;13.943426;5.575191 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "EB"
+
+
+
+com.loox.jloox.LxGroup
+"et" 111101100 30;208;62.037109;55.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"et" 111101100 11.74981;0;35.902197;32.897578 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/hub.gif"
+
+com.loox.jloox.LxText
+"et-name" 111101100 24.152387;33.530224;13.507946;5.575191 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "ET"
+
+
+
+com.loox.jloox.LxGroup
+"sc" 111101100 30;276;56.037109;30.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"sc" 111101100 10.613411;0;32.42987;17.973811 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/modem.gif"
+
+com.loox.jloox.LxText
+"sc-name" 111101100 21.816457;18.319462;12.201508;3.046042 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "SC"
+
+
+
+com.loox.jloox.LxGroup
+"uc" 111101100 30;316;52.037109;35.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"uc" 111101100 9.855812;0;30.114984;20.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/3com.gif"
+
+com.loox.jloox.LxText
+"uc-name" 111101100 20.259171;21.361614;11.330548;3.551873 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "UC"
+
+
+
+com.loox.jloox.LxGroup
+"file" 111101100 30;364;52.037109;35.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"file" 111101100 9.855812;0;30.114984;20.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/printr.gif"
+
+com.loox.jloox.LxText
+"file-name" 111101100 20.259171;21.361614;11.330548;3.551873 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "FILE"
+
+
+
+com.loox.jloox.LxGroup
+"silo" 111101100 30;412;52.037109;35.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"silo" 111101100 9.855812;0;30.114984;20.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/mainfr.gif"
+
+com.loox.jloox.LxText
+"silo-name" 111101100 20.259171;21.361614;11.330548;3.551873 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "SILO"
+
+
+
+com.loox.jloox.LxGroup
+"supervisor" 111101100 26;450;52.037109;35.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"supervisor" 111101100 9.855812;0;40.114984;30.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/thalamus.jpeg"
+
+com.loox.jloox.LxText
+"super-name" 111101100 20.259171;31.361614;21.330548;10.551873 20 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "Supervisor"
+
+
+
+
+0

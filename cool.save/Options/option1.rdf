@@ -1,0 +1,14 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/Options/option1#OPTION">
+        <cool:hasCoda2Component>true</cool:hasCoda2Component>
+        <cool:hasDataLimit>0</cool:hasDataLimit>
+        <cool:hasEventLimit>0</cool:hasEventLimit>
+        <cool:hasTokenInterval>64</cool:hasTokenInterval>
+        <cool:hasDataFile>/home/gurjyan/data/data.evt</cool:hasDataFile>
+        <cool:Splitmb>2000</cool:Splitmb>
+    </rdf:Description>
+
+</rdf:RDF>

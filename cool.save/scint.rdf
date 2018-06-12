@@ -1,0 +1,75 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://COOLHOME/schema/cool#"
+>
+
+    <!-- Convention
+            The cool configuration name, the control name and
+            the name of the RC component should be the same.
+            This name defines the runtype of the experiment.
+    -->
+<rdf:Description rdf:about="http://COOLHOME/schema/cool#Control">
+    <cool:hasComponent rdf:resource="#ROC1"/>
+    <cool:hasComponent rdf:resource="#EB1"/>
+    <cool:hasComponent rdf:resource="#ER1"/>
+    <cool:hasComponent rdf:resource="#CODA_1"/>
+    <cool:hasComponent rdf:resource="#RC"/>
+    <cool:hasCodaOption rdf:resource="#OPTION"/>
+</rdf:Description>
+
+<cool:Option rdf:ID="OPTION">
+    <cool:hasCoda2Component>true</cool:hasCoda2Component>
+    <cool:hasDataLimit>0</cool:hasDataLimit>
+    <cool:hasEventLimit>0</cool:hasEventLimit>
+    <cool:hasTokenInterval>64</cool:hasTokenInterval>
+    <cool:hasDataFile>/home/gep5/CODA/data/test_%d.dat</cool:hasDataFile>
+</cool:Option>
+
+<cool:Component rdf:ID="ROC1">
+    <cool:hasIpc>dpsh</cool:hasIpc>
+    <cool:representsCoda2Client>true</cool:representsCoda2Client>
+    <cool:hasType>ROC</cool:hasType>
+    <cool:hasName>ROC1</cool:hasName>
+    <cool:hasCode>{/home/vx/5.5/551/cram_gem.o ev1} {/home/vx/5.5/551/event_list.o ev2}</cool:hasCode>
+    <cool:hasPriority>44</cool:hasPriority>
+</cool:Component>
+
+
+<cool:Component rdf:ID="EB1">
+    <cool:hasIpc>dpsh</cool:hasIpc>
+    <cool:representsCoda2Client>true</cool:representsCoda2Client>
+    <cool:hasType>EB</cool:hasType>
+    <cool:hasName>EB1</cool:hasName>
+    <cool:hasCode>{CODA} {CODA}</cool:hasCode>
+    <cool:hasPriority>33</cool:hasPriority>
+</cool:Component>
+
+
+<cool:Component rdf:ID="ER1">
+    <cool:hasIpc>dpsh</cool:hasIpc>
+    <cool:representsCoda2Client>true</cool:representsCoda2Client>
+    <cool:hasType>ER</cool:hasType>
+    <cool:hasName>ER1</cool:hasName>
+    <cool:hasCode>{CODA}</cool:hasCode>
+    <cool:hasPriority>22</cool:hasPriority>
+</cool:Component>
+
+
+<cool:Component rdf:ID="CODA_1">
+    <cool:hasIpc>cmsg</cool:hasIpc>
+    <cool:hasType>FILE</cool:hasType>
+    <cool:hasName>coda_1</cool:hasName>
+    <cool:hasPriority>888</cool:hasPriority>
+    <cool:hasCode>{/home/gep5/CODA/data/test_%d.dat} {CODA}</cool:hasCode>
+</cool:Component>
+
+
+<cool:Component rdf:ID="RC">
+    <cool:hasIpc>cmsg</cool:hasIpc>
+    <cool:hasType>RCS</cool:hasType>
+    <cool:hasName>scint</cool:hasName>
+    <cool:hasPriority>77</cool:hasPriority>
+</cool:Component>
+
+
+</rdf:RDF>

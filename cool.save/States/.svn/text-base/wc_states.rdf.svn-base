@@ -1,0 +1,317 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+
+<!--wc1 crate states-->
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1PASIVE">
+        <cool:hasStateName>Wpasive</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1ACTIVE">
+        <cool:hasStateName>Wactive</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1UNKNOWN">
+        <cool:hasStateName>Wunknown</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1ON">
+        <cool:hasStateName>Won</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1OFF">
+        <cool:hasStateName>Woff</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1WARNING">
+        <cool:hasStateName>Wwarning</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC1ERROR">
+        <cool:hasStateName>Werror</cool:hasStateName>
+        <cool:isFor>wc1</cool:isFor>
+    </rdf:Description>
+
+
+<!--wc2 crate states-->
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2PASIVE">
+        <cool:hasStateName>Wpasive</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2ACTIVE">
+        <cool:hasStateName>Wactive</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2UNKNOWN">
+        <cool:hasStateName>Wunknown</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2ON">
+        <cool:hasStateName>Won</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2OFF">
+        <cool:hasStateName>Woff</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2WARNING">
+        <cool:hasStateName>Wwarning</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC2ERROR">
+        <cool:hasStateName>Werror</cool:hasStateName>
+        <cool:isFor>wc2</cool:isFor>
+    </rdf:Description>
+
+
+    <!--wc3 crate states-->
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3PASIVE">
+        <cool:hasStateName>Wpasive</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3ACTIVE">
+        <cool:hasStateName>Wactive</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3UNKNOWN">
+        <cool:hasStateName>Wunknown</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3ON">
+        <cool:hasStateName>Won</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3OFF">
+        <cool:hasStateName>Woff</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3WARNING">
+        <cool:hasStateName>Wwarning</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC3ERROR">
+        <cool:hasStateName>Werror</cool:hasStateName>
+        <cool:isFor>wc3</cool:isFor>
+    </rdf:Description>
+
+
+    <!--wc4 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC4ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc4</cool:isFor>
+        </rdf:Description>
+
+
+    <!--wc5 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC5ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc5</cool:isFor>
+        </rdf:Description>
+
+
+    <!--wc6 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC6ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc6</cool:isFor>
+        </rdf:Description>
+
+
+    <!--wc7 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC7ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc7</cool:isFor>
+        </rdf:Description>
+
+
+    <!--wc8 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC8ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc8</cool:isFor>
+        </rdf:Description>
+
+
+    <!--wc9 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC9ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc9</cool:isFor>
+        </rdf:Description>
+
+
+    <!--wc10 crate states-->
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10PASIVE">
+            <cool:hasStateName>Wpasive</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10ACTIVE">
+            <cool:hasStateName>Wactive</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10UNKNOWN">
+            <cool:hasStateName>Wunknown</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10ON">
+            <cool:hasStateName>Won</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10OFF">
+            <cool:hasStateName>Woff</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10WARNING">
+            <cool:hasStateName>Wwarning</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://COOLHOME/States/wc_states#WC10ERROR">
+            <cool:hasStateName>Werror</cool:hasStateName>
+            <cool:isFor>wc10</cool:isFor>
+        </rdf:Description>
+
+
+
+</rdf:RDF>

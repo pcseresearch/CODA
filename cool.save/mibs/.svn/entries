@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6747"
+   name=""
+   committed-date="2008-02-04T22:05:24.205533Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/mibs"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6747"
+   name="BRIDGE-MIB.my"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="ee9203f8f22da24210c53be98cff404b"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:53.000000Z"/>
+<entry
+   name="ietf"
+   kind="dir"/>
+<entry
+   name="iana"
+   kind="dir"/>
+<entry
+   committed-rev="6747"
+   name="CAT2600-MIB.my"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="4e818e3f7da0ab97bdfeaec825c6cf65"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

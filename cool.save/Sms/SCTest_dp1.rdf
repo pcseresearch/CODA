@@ -1,0 +1,13 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/SCTest_dp1#RC">
+        <cool:hasIpc>cmsg</cool:hasIpc>
+        <cool:hasType>RCS</cool:hasType>
+        <cool:hasName>Test_dp1</cool:hasName>
+        <cool:hasPriority>77</cool:hasPriority>
+    </rdf:Description>
+
+
+</rdf:RDF>

@@ -1,0 +1,271 @@
+JLoox 2.0.2
+"UTF8"
+A 0 0 0 0 $ 1 B $ $ 0
+!
+"Default" 0 32
+0 0 001
+1
+"0" 1
+
+9
+
+com.loox.jloox.LxGroup
+"roc" 111101100 18;12;68.037109;54.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"roc" 111101100 12.886208;0;39.374525;32.300628 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/hub2.gif"
+
+com.loox.jloox.LxText
+"roc-name" 111101100 26.488317;32.921794;14.814385;5.474025 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "ROC"
+
+com.loox.jloox.LxText
+"roc-evr" 111101100 0;40.375785;68.037109;5.658433 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "evr = 00.00 KHz"
+
+com.loox.jloox.LxText
+"roc-dar" 111101100 0;48.450942;68.037109;5.658433 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "dar = 00.00 Mb"
+
+
+
+com.loox.jloox.LxGroup
+"er" 111101100 18;140;62.037109;56.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"er" 111101100 11.74981;0;35.902197;33.494529 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/8mm.gif"
+
+com.loox.jloox.LxText
+"er-name" 111101100 24.152387;34.138655;13.507946;5.676357 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "ER"
+
+com.loox.jloox.LxText
+"er-evr" 111101100 0;41.868161;62.037109;5.867581 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "evr = 00.00 KHz"
+
+com.loox.jloox.LxText
+"er-dar" 111101100 0;50.241794;62.037109;5.867581 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "dar = 00.00 Mb"
+
+
+
+com.loox.jloox.LxGroup
+"eb" 111101100 18;76;64.037109;55.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"eb" 111101100 12.128609;0;37.059639;32.897578 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/macint.gif"
+
+com.loox.jloox.LxText
+"eb-name" 111101100 24.93103;33.530224;13.943426;5.575191 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "EB"
+
+com.loox.jloox.LxText
+"eb-evr" 111101100 0;41.121973;64.037109;5.763007 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "evr = 00.00 KHz"
+
+com.loox.jloox.LxText
+"eb-dar" 111101100 0;49.346368;64.037109;5.763007 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "dar = 00.00 Mb"
+
+
+
+com.loox.jloox.LxGroup
+"et" 111101100 18;208;62.037109;55.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"et" 111101100 11.74981;0;35.902197;32.897578 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/hub.gif"
+
+com.loox.jloox.LxText
+"et-name" 111101100 24.152387;33.530224;13.507946;5.575191 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "ET"
+
+com.loox.jloox.LxText
+"et-evr" 111101100 0;41.121973;62.037109;5.763007 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "evr = 00.00 KHz"
+
+com.loox.jloox.LxText
+"et-dar" 111101100 0;49.346368;62.037109;5.763007 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "dar = 00.00 Mb"
+
+
+
+com.loox.jloox.LxGroup
+"sc" 111101100 22;276;56.037109;30.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"sc" 111101100 10.613411;0;32.42987;17.973811 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/modem.gif"
+
+com.loox.jloox.LxText
+"sc-name" 111101100 21.816457;18.319462;12.201508;3.046042 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "SC"
+
+com.loox.jloox.LxText
+"sc-evr" 111101100 0;22.467264;56.037109;3.148657 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 1"
+
+com.loox.jloox.LxText
+"sc-dar" 111101100 0;26.960718;56.037109;3.148657 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 2"
+
+
+
+com.loox.jloox.LxGroup
+"uc" 111101100 22;316;52.037109;35.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"uc" 111101100 9.855812;0;30.114984;20.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/3com.gif"
+
+com.loox.jloox.LxText
+"uc-name" 111101100 20.259171;21.361614;11.330548;3.551873 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "UC"
+
+com.loox.jloox.LxText
+"uc-evr" 111101100 0;26.198206;52.037109;3.671527 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 1"
+
+com.loox.jloox.LxText
+"uc-dar" 111101100 0;31.437848;52.037109;3.671527 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 2"
+
+
+
+com.loox.jloox.LxGroup
+"file" 111101100 20;364;52.037109;35.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"file" 111101100 9.855812;0;30.114984;20.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/printr.gif"
+
+com.loox.jloox.LxText
+"file-name" 111101100 20.259171;21.361614;11.330548;3.551873 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "FILE"
+
+com.loox.jloox.LxText
+"file-evr" 111101100 0;26.198206;52.037109;3.671527 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 1"
+
+com.loox.jloox.LxText
+"file-dar" 111101100 0;31.437848;52.037109;3.671527 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 2"
+
+
+
+com.loox.jloox.LxGroup
+"silo" 111101100 20;412;52.037109;35.109375 5 0 $ ! ! 0
+4
+
+com.loox.jloox.LxImage
+"silo" 111101100 9.855812;0;30.114984;20.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/mainfr.gif"
+
+com.loox.jloox.LxText
+"silo-name" 111101100 20.259171;21.361614;11.330548;3.551873 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 1 12 "SILO"
+
+com.loox.jloox.LxText
+"silo-evr" 111101100 0;26.198206;52.037109;3.671527 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 1"
+
+com.loox.jloox.LxText
+"silo-dar" 111101100 0;31.437848;52.037109;3.671527 5 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "monitored info 2"
+
+
+
+com.loox.jloox.LxGroup
+"silo" 111101100 20;450;52.037109;35.109375 5 0 $ ! ! 0
+2
+
+com.loox.jloox.LxImage
+"supervisor" 111101100 9.855812;0;40.114984;30.958565 5 0 $ ! ! 0
+A 0 1 0 0 ffff0000 1 ! 0 0
+0 0 0 0 1
+"file:/home/gurjyan/coda3/rcLite/conf/images/thalamus.jpeg"
+
+com.loox.jloox.LxText
+"super-name" 111101100 20.259171;31.361614;21.330548;10.551873 20 0 $ ! ! 0
+A 0 0 0 0 $ 1 B $ $ 0 0
+0 0
+"Dialog" 0 12 "Supervisor"
+
+
+
+
+0

@@ -1,0 +1,14 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Control/fadc2Tdc/Options/fadc2Tdc_option#fadc2Tdc_option">
+
+   <cool:hasName>fadc2Tdc_option</cool:hasName>
+   <cool:hasDataFile>fadc2tdc_%d.dat</cool:hasDataFile>
+   <cool:hasDataLimit>0</cool:hasDataLimit>
+   <cool:hasEventLimit>0</cool:hasEventLimit>
+
+</rdf:Description>
+</rdf:RDF>

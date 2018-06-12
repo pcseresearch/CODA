@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6845"
+   name=""
+   committed-date="2008-03-01T20:50:42.815000Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/examples"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6845"
+   name="R1AutoStartEvtLimit.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="69644a1c7e227cb616b338e6289078b7"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="EbEr.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="ec40a89018dc2aa5c59f5cbe48133375"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR1000.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="7a1ef3c33e050cef64136bc7371a6626"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="R1Scheduler.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="59116428f3d07c405336687b2fb6034e"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="R1Distribute.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="07fa9bfa4e4f3fe326c86e7bc3a11be5"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="R1.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="f8b47e9afa774321ad9dafce2fb4497e"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR50.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="3dc2de9adf13c5a0aec015538d8c873e"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="R2.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="7dab1dabfa9b8268f58e8453bb9c581a"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="R1ExternalProcess.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="f0c98772ea006df450b5608105220830"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="DMultipleRocs.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="61b88c629884603cd6513413c6a7bd9c"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="ROC2_DP.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="d5ce78cbdc22bf8e7cb16004c8dc6b69"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR1000N.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="ed736a958c3c24e48992791a6288b283"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR100.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="b5b62053352b4d60b7cca294e372f549"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR200.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="23a021b95226c45f6440310b587bfb98"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR300.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="ce83a6a65de4386e3764117e2fb3e70e"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR400.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="0c6c4ec8afce1efc107ee374b2409499"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="MR500.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="adc426d67e8df0c0b5496d6f6afe4a32"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6845"
+   name="DmR101.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-01T20:50:42.815000Z"
+   checksum="34bbae67df9c22a0e2371337f21eb31b"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

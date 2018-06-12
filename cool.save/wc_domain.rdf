@@ -1,0 +1,14 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/schema/cool#Control">
+        <cool:include rdf:resource="http://COOLHOME/Sms/wnc.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/States/sms_states.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/Options/option2.rdf"/>
+
+       <cool:hasComponent rdf:resource="http://COOLHOME/Sms/wnc#DSWNC"/>
+       <cool:hasSlcOption rdf:resource="http://COOLHOME/Options/option2#OPTION"/>
+    </rdf:Description>
+
+</rdf:RDF>

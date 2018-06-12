@@ -1,0 +1,12 @@
+<control>
+   <session>
+      <name>gep5test</name>
+      <config>fadc250</config>
+      <runnumber>2086</runnumber>
+   </session>
+   <session>
+      <name>hallA</name>
+      <config>undefined</config>
+      <runnumber>1</runnumber>
+   </session>
+</control>

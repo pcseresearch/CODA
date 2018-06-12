@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6955"
+   name=""
+   committed-date="2008-04-28T17:22:23.531000Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/Options"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6876"
+   name="option1.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-19T16:56:25.874046Z"
+   checksum="d85424a5bca3e3150aa7edc2f6575161"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6955"
+   name="option2.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-04-28T17:22:23.531000Z"
+   checksum="0cfa1a963d27177d107aab81467890fc"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

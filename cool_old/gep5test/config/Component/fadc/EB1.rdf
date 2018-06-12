@@ -1,0 +1,37 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Component/fadc/EB1#EB1">
+   <cool:hasName>EB1</cool:hasName>
+   <cool:hasType>CDEB</cool:hasType>
+   <cool:hasCode>{CODA} {CODA}</cool:hasCode>
+   <cool:representsCoda2Component>true</cool:representsCoda2Component>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Plugin/DPPlugin.rdf"/>
+   <cool:hasCommunicationPlugin rdf:resource="http://AFECSHOMEDB/Plugin/DPPlugin#DPPlugin"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Configured.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Configured#Configured"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Downloaded.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Downloaded#Downloaded"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Prestarted.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Prestarted#Prestarted"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Active.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Active#Active"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Ended.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Ended#Ended"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Reseted.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Reseted#Reseted"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Paused.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Paused#Paused"/>
+
+</rdf:Description>
+</rdf:RDF>

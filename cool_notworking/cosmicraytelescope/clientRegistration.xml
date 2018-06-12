@@ -1,0 +1,20 @@
+<registration>
+   <client>
+      <name>ROC1</name>
+      <hostname>hallavme9.jlab.org</hostname>
+      <containerhost>hallavme14</containerhost>
+      <portnumber>45800</portnumber>
+   </client>
+   <client>
+      <name>ER1</name>
+      <hostname>hallavme14.jlab.org</hostname>
+      <containerhost>hallavme14</containerhost>
+      <portnumber>45801</portnumber>
+   </client>
+   <client>
+      <name>EB1</name>
+      <hostname>hallavme14.jlab.org</hostname>
+      <containerhost>hallavme14</containerhost>
+      <portnumber>45800</portnumber>
+   </client>
+</registration>

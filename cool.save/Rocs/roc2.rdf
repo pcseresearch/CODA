@@ -1,0 +1,14 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/Rocs/roc2#ROC2">
+        <cool:hasIpc>dpsh</cool:hasIpc>
+        <cool:representsCoda2Client>true</cool:representsCoda2Client>
+        <cool:hasType>ROC</cool:hasType>
+        <cool:hasName>ROC2</cool:hasName>
+        <cool:hasCode>{/daqfs/home/gurjyan/Testbench/coda//rol/test_list_l.o userstring} {/daqfs/home/gurjyan/Testbench/coda/rol/event_list.o mystring}</cool:hasCode>
+        <cool:hasPriority>44</cool:hasPriority>
+    </rdf:Description>
+
+</rdf:RDF>

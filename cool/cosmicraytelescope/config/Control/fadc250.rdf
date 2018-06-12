@@ -1,0 +1,24 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Control/fadc250#fadc250">
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc250/ROC1.rdf"/>
+   <cool:hasComponent rdf:resource="http://COOLHOME/Component/fadc250/ROC1#ROC1"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc250/EB1.rdf"/>
+   <cool:hasComponent rdf:resource="http://COOLHOME/Component/fadc250/EB1#EB1"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc250/ER1.rdf"/>
+   <cool:hasComponent rdf:resource="http://COOLHOME/Component/fadc250/ER1#ER1"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc250/sms_fadc250.rdf"/>
+   <cool:hasSupervisor rdf:resource="http://COOLHOME/Component/fadc250/sms_fadc250#sms_fadc250"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Option/fadc250/fadc250_option.rdf"/>
+   <cool:hasOption rdf:resource="http://COOLHOME/Option/fadc250/fadc250_option#fadc250_option"/>
+
+</rdf:Description>
+</rdf:RDF>

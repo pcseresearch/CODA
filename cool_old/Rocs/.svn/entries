@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6876"
+   name=""
+   committed-date="2008-03-19T16:56:25.874046Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/Rocs"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6876"
+   name="roc2.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-19T16:56:25.874046Z"
+   checksum="bd7d921366a01e55f3c7ae0ed5610b67"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

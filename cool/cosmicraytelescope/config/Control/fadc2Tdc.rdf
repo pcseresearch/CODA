@@ -1,0 +1,24 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Control/fadc2Tdc#fadc2Tdc">
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc2Tdc/ROC1.rdf"/>
+   <cool:hasComponent rdf:resource="http://COOLHOME/Component/fadc2Tdc/ROC1#ROC1"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc2Tdc/EB1.rdf"/>
+   <cool:hasComponent rdf:resource="http://COOLHOME/Component/fadc2Tdc/EB1#EB1"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc2Tdc/ER1.rdf"/>
+   <cool:hasComponent rdf:resource="http://COOLHOME/Component/fadc2Tdc/ER1#ER1"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Component/fadc2Tdc/sms_fadc2Tdc.rdf"/>
+   <cool:hasSupervisor rdf:resource="http://COOLHOME/Component/fadc2Tdc/sms_fadc2Tdc#sms_fadc2Tdc"/>
+
+   <cool:include rdf:resource="http://COOLHOME/Option/fadc2Tdc/fadc2Tdc_option.rdf"/>
+   <cool:hasOption rdf:resource="http://COOLHOME/Option/fadc2Tdc/fadc2Tdc_option#fadc2Tdc_option"/>
+
+</rdf:Description>
+</rdf:RDF>

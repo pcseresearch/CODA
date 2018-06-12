@@ -1,0 +1,103 @@
+Mon Jun 14 14:25:24 EDT 2010
+Parsing results for /home/gep5/CODA/cool/scint.rdf
+Debug - Starting to parse Control =>       scint
+===================================================
+Start parsing Component of the Control   =>       http://COOLHOME#ROC1
+---------------------------------------------------
+COOL-Warning: component http://COOLHOME#ROC1 is using defined global session *gep5test*
+COOL-Warning: component http://COOLHOME#ROC1 is usning defined global runtype
+COOL-Warning: no node defined
+COOL-Warning: no external processes defined
+COOL-Warning: no loggingLevel defined
+COOL-WARNING representsIPAddress is not defined.
+COOL-WARNING hasOption is not defined.
+COOL-Warning: no controlsComponent is defined
+COOL-Warning: no representsObjectType is defined for http://COOLHOME#ROC1
+COOL-Warning: no setsReportingInterval is defined for http://COOLHOME#ROC1
+COOL-Warning: no filtersDalog is defined for http://COOLHOME#ROC1
+COOL-Warning: no SMS agent name is defined for this agentDebug - Finished parsing the Component of the Control  =>      http://COOLHOME#ROC1
+---------------------------------------------------
+Start parsing Component of the Control   =>       http://COOLHOME#EB1
+---------------------------------------------------
+COOL-Warning: component http://COOLHOME#EB1 is using defined global session *gep5test*
+COOL-Warning: component http://COOLHOME#EB1 is usning defined global runtype
+COOL-Warning: no node defined
+COOL-Warning: no external processes defined
+COOL-Warning: no loggingLevel defined
+COOL-WARNING representsIPAddress is not defined.
+COOL-WARNING hasOption is not defined.
+COOL-Warning: no controlsComponent is defined
+COOL-Warning: no representsObjectType is defined for http://COOLHOME#EB1
+COOL-Warning: no setsReportingInterval is defined for http://COOLHOME#EB1
+COOL-Warning: no filtersDalog is defined for http://COOLHOME#EB1
+COOL-Warning: no SMS agent name is defined for this agentDebug - Finished parsing the Component of the Control  =>      http://COOLHOME#EB1
+---------------------------------------------------
+Start parsing Component of the Control   =>       http://COOLHOME#ER1
+---------------------------------------------------
+COOL-Warning: component http://COOLHOME#ER1 is using defined global session *gep5test*
+COOL-Warning: component http://COOLHOME#ER1 is usning defined global runtype
+COOL-Warning: no node defined
+COOL-Warning: no external processes defined
+COOL-Warning: no loggingLevel defined
+COOL-WARNING representsIPAddress is not defined.
+COOL-WARNING hasOption is not defined.
+COOL-Warning: no controlsComponent is defined
+COOL-Warning: no representsObjectType is defined for http://COOLHOME#ER1
+COOL-Warning: no setsReportingInterval is defined for http://COOLHOME#ER1
+COOL-Warning: no filtersDalog is defined for http://COOLHOME#ER1
+COOL-Warning: no SMS agent name is defined for this agentDebug - Finished parsing the Component of the Control  =>      http://COOLHOME#ER1
+---------------------------------------------------
+Start parsing Component of the Control   =>       http://COOLHOME#CODA_1
+---------------------------------------------------
+COOL-Warning: component http://COOLHOME#CODA_1 is using defined global session *gep5test*
+COOL-Warning: component http://COOLHOME#CODA_1 is usning defined global runtype
+COOL-Warning: no node defined
+COOL-Warning: no external processes defined
+COOL-WARNING representsCoda2Client is not defined.
+COOL-Warning: no loggingLevel defined
+COOL-WARNING representsIPAddress is not defined.
+COOL-WARNING hasOption is not defined.
+COOL-Warning: no controlsComponent is defined
+COOL-Warning: no representsObjectType is defined for http://COOLHOME#CODA_1
+COOL-Warning: no setsReportingInterval is defined for http://COOLHOME#CODA_1
+COOL-Warning: no filtersDalog is defined for http://COOLHOME#CODA_1
+COOL-Warning: no SMS agent name is defined for this agentDebug - Finished parsing the Component of the Control  =>      http://COOLHOME#CODA_1
+---------------------------------------------------
+Start parsing Component of the Control   =>       http://COOLHOME#RC
+---------------------------------------------------
+COOL-Warning: no code defined
+COOL-Warning: component http://COOLHOME#RC is using defined global session *gep5test*
+COOL-Warning: component http://COOLHOME#RC is usning defined global runtype
+COOL-Warning: no node defined
+COOL-Warning: no external processes defined
+COOL-WARNING representsCoda2Client is not defined.
+COOL-Warning: no loggingLevel defined
+COOL-WARNING representsIPAddress is not defined.
+COOL-WARNING hasOption is not defined.
+COOL-Warning: no controlsComponent is defined
+COOL-Warning: no representsObjectType is defined for http://COOLHOME#RC
+COOL-Warning: no setsReportingInterval is defined for http://COOLHOME#RC
+COOL-Warning: no filtersDalog is defined for http://COOLHOME#RC
+COOL-Warning: no SMS agent name is defined for this agentDebug - Finished parsing the Component of the Control  =>      http://COOLHOME#RC
+---------------------------------------------------
+Debug - Starting to parse Options of the Control   =>       http://COOLHOME#OPTION
+---------------------------------------------------
+COOL-Warning: no scheduler defined
+COOL-Warning: no autostart defined for the component
+COOL-Warning: no startrun defined for the component
+COOL-Warning: no dataFilePrefix defined
+COOL-Warning: no configFile defined
+COOL-Warning: no configString defined
+COOL-Warning: no configIsXml defined
+COOL-Warning: no configIsMib defined
+Debug - Finished parsing the Options of the Control  =>      http://COOLHOME#OPTION
+---------------------------------------------------
+Warning: no hasEbOption is defined. 
+Warning: no hasErOption is defined. 
+Warning: no hasRocOption is defined. 
+Warning: no hasTsOption is defined. 
+Warning: no hasEtOption is defined. 
+Warning: no hasSlcOption is defined. 
+Warning: no hasAnaOption is defined. 
+Debug - Finished parsing Control  =>       http://COOLHOME/schema/cool#Control
+===================================================

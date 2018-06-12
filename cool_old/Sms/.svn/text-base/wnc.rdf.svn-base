@@ -1,0 +1,119 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+ <!-- Wiener crates EC subdomain supervisor -->
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#WNCS1">
+        <cool:hasName>wncs1</cool:hasName>
+        <cool:hasIpc>cmsg</cool:hasIpc>
+        <cool:hasType>SMS</cool:hasType>
+        <cool:hasPriority>78</cool:hasPriority>
+        <cool:setsReportingInterval>5</cool:setsReportingInterval>
+        
+        <cool:hasState rdf:resource="http://COOLHOME/States/sms_states#OK"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/sms_states#WARNING"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/sms_states#ERROR"/>
+
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#RULE1"/>
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#RULE2"/>
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#RULE3"/>
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#RULE4"/>
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#RULE5"/>
+
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#RULE1">
+        <cool:if rdf:resource="http://COOLHOME/States/wc_states#WC1PASIVE"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/wc_states#WC1ACTIVE"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#RULE2">
+        <cool:if rdf:resource="http://COOLHOME/States/wc_states#WC1ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC2ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC3ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC4ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC5ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC6ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC7ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC8ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC9ON"/>
+        <cool:andif rdf:resource="http://COOLHOME/States/wc_states#WC10ON"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#OK"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#RULE3">
+        <cool:if rdf:resource="http://COOLHOME/States/wc_states#WC1OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC2OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC3OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC4OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC5OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC6OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC7OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC8OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC9OFF"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC10OFF"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#WARNING"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#RULE4">
+        <cool:if rdf:resource="http://COOLHOME/States/wc_states#WC1ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC2ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC3ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC4ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC5ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC6ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC7ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC8ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC9ERROR"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC10ERROR"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#ERROR"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#RULE5">
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC1WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC2WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC3WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC4WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC5WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC6WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC7WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC8WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC9WARNING"/>
+        <cool:orif rdf:resource="http://COOLHOME/States/wc_states#WC10WARNING"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#WARNING"/>
+    </rdf:Description>
+
+
+    <!-- Wiener crates domain supervisor -->
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#DSWNC">
+        <cool:hasName>dswnc</cool:hasName>
+        <cool:hasIpc>cmsg</cool:hasIpc>
+        <cool:hasType>SMS</cool:hasType>
+        <cool:hasPriority>78</cool:hasPriority>
+
+        <cool:hasState rdf:resource="http://COOLHOME/States/sms_states#DSOK"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/sms_states#DSWARNING"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/sms_states#DSERROR"/>
+
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#DSRULE1"/>
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#DSRULE2"/>
+        <cool:hasRule rdf:resource= "http://COOLHOME/Sms/wnc#DSRULE3"/>
+
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#DSRULE1">
+        <cool:if rdf:resource="http://COOLHOME/States/sms_states#OK"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#DSOK"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#DSRULE2">
+        <cool:if rdf:resource="http://COOLHOME/States/sms_states#WARNING"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#DSWARNING"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/Sms/wnc#DSRULE3">
+        <cool:if rdf:resource="http://COOLHOME/States/sms_states#ERROR"/>
+        <cool:thenMoveTo rdf:resource="http://COOLHOME/States/sms_states#DSERROR"/>
+    </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,14 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Option/TDC/TDC_option#TDC_option">
+
+   <cool:hasName>TDC_option</cool:hasName>
+   <cool:hasDataFile>test.dat</cool:hasDataFile>
+   <cool:hasDataLimit>0</cool:hasDataLimit>
+   <cool:hasEventLimit>0</cool:hasEventLimit>
+
+</rdf:Description>
+</rdf:RDF>

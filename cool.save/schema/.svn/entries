@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6971"
+   name=""
+   committed-date="2008-04-30T19:27:31.759848Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/schema"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6971"
+   name="cool_v2.rdfs"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-04-30T19:27:31.759848Z"
+   checksum="257376139b4ac1ac67b358e0938be1e9"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

@@ -1,0 +1,14 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Option/scint/scint_option#scint_option">
+
+   <cool:hasName>scint_option</cool:hasName>
+   <cool:hasDataFile>CODA/data/test_%d.dat</cool:hasDataFile>
+   <cool:hasDataLimit>0</cool:hasDataLimit>
+   <cool:hasEventLimit>0</cool:hasEventLimit>
+
+</rdf:Description>
+</rdf:RDF>

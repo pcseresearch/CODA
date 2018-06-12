@@ -1,0 +1,47 @@
+#!/bin/bash
+#
+# Script to remove the kill all the CODA 2.0 processes.  Does
+# not kill the run control display, or the message logger display as these
+# two GUI's rarely lead to things being messed up.
+#
+# 12.8.1998 (saw) Initial version
+# 12.02.2002 (saw) Modify for Linux
+# 09.04.2004 (saw) Remove rcServer from process table
+
+killjobbyname () {
+  ps -auxw | grep $1 | grep -v grep |\
+  while read USER PID CPU MEM VSZ RSS TTY STAT START TIME FULLNAME
+  do
+    echo "killing $FULLNAME"
+    kill $PID
+  done
+#
+# Sleep 1 second and do a kill -9 on anything that a regular kill
+# didn't get rid of.
+#
+  sleep 1
+  ps -auxw | grep $1 | grep -v grep |\
+  while read USER PID CPU MEM VSZ RSS TTY STAT START TIME FULLNAME
+  do
+    echo "killing $FULLNAME"
+    kill -9 $PID
+  done
+
+}
+
+killjobbyname runcontrol
+killjobbyname rcServer
+killjobbyname coda_er
+killjobbyname et_start
+rm /tmp/et_sys_*
+killjobbyname coda_eb
+
+msql $EXPID <<EOF
+delete from process where cmd='rcServer'\g
+EOF
+
+
+exit 0
+
+
+

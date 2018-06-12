@@ -1,0 +1,95 @@
+# 
+#  Test readout list
+#
+#    David Abbott, CEBAF 1996
+
+readout list FRED
+maximum 1024,1000
+polling
+test readout
+
+extern int bigendian_out;
+
+
+begin download
+
+# Sending data to Little-Endian EB
+  bigendian_out = 0;
+
+  log inform "User Download Executed"
+
+end download
+    
+begin prestart
+
+  variable jj, adc_id
+
+  log inform "Entering User Prestart"
+
+  init trig source TEST
+  link sync trig source TEST 1 to usrtrig and usrtrig_done
+  event type 1 then read TEST 1
+
+  TESTflag = 0;
+  TEST_prescale = 2;
+
+  log inform "User Prestart Executed"
+
+end prestart
+
+begin end
+
+  TESTflag = 0;
+
+  log inform "User End Executed"
+
+end end
+
+begin pause
+
+  TESTflag = 0;
+
+  log inform "User Pause Executed"
+
+end pause
+
+begin go
+  
+  log inform "Entering User Go"
+  
+  TESTflag = 1;
+
+end go
+
+begin trigger usrtrig
+ 
+  variable ii
+
+# rol->dabufp = (long *)0;
+ open event type EVTYPE of BT_UI4
+
+  output hex da000011
+%%
+  for(ii=0;ii<10;ii++) {
+     *rol->dabufp++ = ii;
+  }
+%%
+  output hex da0000ff
+
+ close event
+
+end trigger
+
+begin done usrtrig
+
+end done
+
+begin done
+
+end done
+
+begin status
+
+end status
+
+

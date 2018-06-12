@@ -1,0 +1,26 @@
+<registration>
+   <client>
+      <name>ROC1</name>
+      <hostname>vmedvcseel2.jlab.org</hostname>
+      <containerhost>cnu.jlab.org</containerhost>
+      <portnumber>45800</portnumber>
+   </client>
+   <client>
+      <name>ER1</name>
+      <hostname>cnu.jlab.org</hostname>
+      <containerhost>cnu.jlab.org</containerhost>
+      <portnumber>45801</portnumber>
+   </client>
+   <client>
+      <name>EB1</name>
+      <hostname>cnu.jlab.org</hostname>
+      <containerhost>cnu.jlab.org</containerhost>
+      <portnumber>45800</portnumber>
+   </client>
+   <client>
+      <name>EB2</name>
+      <hostname>cnu.jlab.org</hostname>
+      <containerhost>cnu.jlab.org</containerhost>
+      <portnumber>45400</portnumber>
+   </client>
+</registration>

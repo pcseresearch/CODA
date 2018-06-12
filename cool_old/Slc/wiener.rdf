@@ -1,0 +1,206 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+<!--wc1 component-->
+    <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC1">
+        <cool:hasName>wc1</cool:hasName>
+        <cool:hasIpc>snmp</cool:hasIpc>
+        <cool:hasType>WNC</cool:hasType>
+        <cool:hasPriority>56</cool:hasPriority>
+        <cool:reportsTo>wncs1</cool:reportsTo>
+        <cool:setsReportingInterval>5</cool:setsReportingInterval>
+        <cool:representsIPAddress>129.57.29.202</cool:representsIPAddress>
+
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1PASIVE"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1ACTIVE"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1UNKNOWN"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1ON"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1OFF"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1WARNING"/>
+        <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC1ERROR"/>
+    </rdf:Description>
+
+
+    <!--wc2 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC2">
+            <cool:hasName>wc2</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>5</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.202</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC2ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc3 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC3">
+            <cool:hasName>wc3</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>5</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.202</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC3ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc4 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC4">
+            <cool:hasName>wc4</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>5</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.209</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC4ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc5 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC5">
+            <cool:hasName>wc5</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>5</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.209</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC5ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc6 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC6">
+            <cool:hasName>wc6</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>5</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.209</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC6ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc7 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC7">
+            <cool:hasName>wc7</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>5</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.210</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC7ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc8 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC8">
+            <cool:hasName>wc8</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>10</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.210</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC8ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc9 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC9">
+            <cool:hasName>wc9</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>10</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.210</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC9ERROR"/>
+        </rdf:Description>
+
+
+    <!--wc10 component-->
+        <rdf:Description rdf:about="http://COOLHOME/Slc/wiener#WC10">
+            <cool:hasName>wc10</cool:hasName>
+            <cool:hasIpc>snmp</cool:hasIpc>
+            <cool:hasType>WNC</cool:hasType>
+            <cool:hasPriority>56</cool:hasPriority>
+            <cool:reportsTo>wncs1</cool:reportsTo>
+            <cool:setsReportingInterval>10</cool:setsReportingInterval>
+            <cool:representsIPAddress>129.57.29.202</cool:representsIPAddress>
+
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10PASIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10ACTIVE"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10UNKNOWN"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10ON"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10OFF"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10WARNING"/>
+            <cool:hasState rdf:resource="http://COOLHOME/States/wc_states#WC10ERROR"/>
+        </rdf:Description>
+
+
+
+</rdf:RDF>

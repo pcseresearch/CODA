@@ -1,0 +1,12 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/Codaio/codaio1#CODA_0">
+        <cool:hasIpc>cmsg</cool:hasIpc>
+        <cool:hasType>FILE</cool:hasType>
+        <cool:hasName>coda_0</cool:hasName>
+        <cool:hasPriority>888</cool:hasPriority>
+        <cool:hasCode>{test.dat} {CODA}</cool:hasCode>
+    </rdf:Description>
+</rdf:RDF>    

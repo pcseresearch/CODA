@@ -1,0 +1,15 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/Ers/er1#ER1">
+        <cool:hasIpc>dpsh</cool:hasIpc>
+        <cool:representsCoda2Client>true</cool:representsCoda2Client>
+        <cool:hasType>ER</cool:hasType>
+        <cool:hasName>ER1</cool:hasName>
+        <cool:hasCode>{CODA}</cool:hasCode>
+        <cool:hasPriority>22</cool:hasPriority>
+    </rdf:Description>
+
+
+</rdf:RDF>

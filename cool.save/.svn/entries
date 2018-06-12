@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="7045"
+   name=""
+   committed-date="2008-07-17T13:30:21.124000Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   name="Slc"
+   kind="dir"/>
+<entry
+   committed-rev="6648"
+   name=".containers"
+   text-time="2007-12-11T20:14:27.000000Z"
+   committed-date="2007-12-11T19:49:23.463582Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2007-12-11T20:14:27.000000Z"/>
+<entry
+   name="Ers"
+   kind="dir"/>
+<entry
+   committed-rev="7045"
+   name="coolparser.log"
+   text-time="2008-07-17T13:46:38.000000Z"
+   committed-date="2008-07-17T13:30:21.124000Z"
+   checksum="67c6f9946b2536f4d36487b31c2bacf5"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-07-17T13:46:38.000000Z"/>
+<entry
+   committed-rev="6975"
+   name="wc_ec.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-05-06T20:53:07.280505Z"
+   checksum="2276024594a11b295bd1bdd9f8b1b18b"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   name="mibs"
+   kind="dir"/>
+<entry
+   committed-rev="6873"
+   name="Old_Test_dp1.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-03-18T20:34:10.750000Z"
+   checksum="7857adabfacc0393ddc957a2680b1aac"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   name="Options"
+   kind="dir"/>
+<entry
+   committed-rev="6974"
+   name="Test_dp1.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-05-01T14:52:55.372217Z"
+   checksum="fa2fe5ae9ed4f79ec840b492a4f28f68"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   name="jlx"
+   kind="dir"/>
+<entry
+   name="Codaio"
+   kind="dir"/>
+<entry
+   name="schema"
+   kind="dir"/>
+<entry
+   name="Sms"
+   kind="dir"/>
+<entry
+   name="States"
+   kind="dir"/>
+<entry
+   name="sessions"
+   kind="dir"/>
+<entry
+   name="Rocs"
+   kind="dir"/>
+<entry
+   committed-rev="7045"
+   name=".physcomponents"
+   text-time="2008-07-17T13:46:38.000000Z"
+   committed-date="2008-07-17T13:30:21.124000Z"
+   checksum="d41dd21a1d53e204c00a1122850b8f01"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-07-17T13:46:38.000000Z"/>
+<entry
+   name=".rccoda"
+   kind="dir"/>
+<entry
+   name="Ebs"
+   kind="dir"/>
+<entry
+   committed-rev="6975"
+   name="wc_domain.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-05-06T20:53:07.280505Z"
+   checksum="109c0ccb20137d801bf425453e26d7a3"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   name="examples"
+   kind="dir"/>
+</wc-entries>

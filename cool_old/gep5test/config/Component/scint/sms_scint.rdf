@@ -1,0 +1,47 @@
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:cool="http://AFECSHOMEDB/schema/cool#"
+>
+
+<rdf:Description rdf:about="http://COOLHOME/Component/scint/sms_scint#sms_scint">
+   <cool:hasName>sms_scint</cool:hasName>
+   <cool:hasType>SMS</cool:hasType>
+   <cool:hasPriority>77</cool:hasPriority>
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Configured.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Configured#Configured"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Downloaded.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Downloaded#Downloaded"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Prestarted.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Prestarted#Prestarted"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Active.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Active#Active"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Ended.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Ended#Ended"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/State/CodaRC/Paused.rdf"/>
+   <cool:hasState rdf:resource="http://AFECSHOMEDB/State/CodaRC/Paused#Paused"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcConfigure.rdf"/>
+   <cool:providesService rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcConfigure#CodaRcConfigure"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcDownload.rdf"/>
+   <cool:providesService rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcDownload#CodaRcDownload"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcPrestart.rdf"/>
+   <cool:providesService rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcPrestart#CodaRcPrestart"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcGo.rdf"/>
+   <cool:providesService rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcGo#CodaRcGo"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcEnd.rdf"/>
+   <cool:providesService rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcEnd#CodaRcEnd"/>
+
+   <cool:include rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcStartRun.rdf"/>
+   <cool:providesService rdf:resource="http://AFECSHOMEDB/Service/CodaRC/CodaRcStartRun#CodaRcStartRun"/>
+
+</rdf:Description>
+</rdf:RDF>

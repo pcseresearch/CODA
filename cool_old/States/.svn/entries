@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6975"
+   name=""
+   committed-date="2008-05-06T20:53:07.280505Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/States"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6975"
+   name="sms_states.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-05-06T20:53:07.280505Z"
+   checksum="c29f1a666d52aace0ba04d18da557645"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6975"
+   name="wc_states.rdf"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-05-06T20:53:07.280505Z"
+   checksum="5fd1f5f42a0ca1a42185fc3cb7a1e528"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

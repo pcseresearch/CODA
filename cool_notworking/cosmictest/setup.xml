@@ -1,0 +1,30 @@
+<afecs>
+    <!--...................................................-->
+    <!--..     AFECS_HOME                                ..-->
+    <!--..     CLARA_HOME                                ..-->
+    <!--..     EXPID                                     ..-->
+    <!--..     Above environmental variables must be set ..-->
+    <!--...................................................-->
+
+    <!--...................................................-->
+    <!--..     This section is for platform settings     ..-->
+    <!--...................................................-->
+    <description>Afecs Test Platform</description>
+    <platformHost>jlabdaq.pcs.cnu.edu</platformHost>
+    <!--<tcpPort>7777</tcpPort>-->
+    <!--<udpPort>8888</udpPort>-->
+
+    <!--...................................................-->
+    <!--..     This section is for rc domain settings    ..-->
+    <!--...................................................-->
+    <!--<rcUdpPort>7878</rcUdpPort>-->
+    <rcDescription>Afecs Test Platform RC Domain</rcDescription>
+
+    <!--.............................................>.....-->
+    <!--..     This section is for coda2 db settings     ..-->
+    <!--..............................................>....-->
+    <dbUrl>jdbc:msql://jlabdaq:8101/cosmictest</dbUrl>
+    <dbDriver>com.imaginary.sql.msql.MsqlDriver</dbDriver>
+   <!--<dbUser>gurjyan</dbUser>-->
+    <!--<dbPasswd>...</dbpasswd>-->
+</afecs>

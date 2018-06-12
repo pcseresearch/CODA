@@ -1,0 +1,48 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <!-- Wiener crates EC subdomain supervisor states -->
+    <rdf:Description rdf:about="http://COOLHOME/States/sms_states#OK">
+        <cool:hasStateName>WNC_Supervisor_Ok</cool:hasStateName>
+        <cool:isFor>wncs1</cool:isFor>
+        <cool:hasSeverity>1</cool:hasSeverity>
+    </rdf:Description>
+
+
+    <rdf:Description rdf:about="http://COOLHOME/States/sms_states#WARNING">
+        <cool:hasStateName>WNC_Supervisor_Warning</cool:hasStateName>
+        <cool:isFor>wncs1</cool:isFor>
+        <cool:hasSeverity>5</cool:hasSeverity>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/States/sms_states#ERROR">
+        <cool:hasStateName>WNC_Supervisor_Error</cool:hasStateName>
+        <cool:isFor>wncs1</cool:isFor>
+        <cool:hasSeverity>10</cool:hasSeverity>
+    </rdf:Description>
+
+
+    
+<!-- Wiener crates domain supervisor states -->
+    <rdf:Description rdf:about="http://COOLHOME/States/sms_states#DSOK">
+        <cool:hasStateName>DSWNC_Ok</cool:hasStateName>
+        <cool:isFor>dswnc</cool:isFor>
+        <cool:hasSeverity>1</cool:hasSeverity>
+    </rdf:Description>
+
+
+    <rdf:Description rdf:about="http://COOLHOME/States/sms_states#DSWARNING">
+        <cool:hasStateName>DSWNC_Warning</cool:hasStateName>
+        <cool:isFor>dswnc</cool:isFor>
+        <cool:hasSeverity>5</cool:hasSeverity>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://COOLHOME/States/sms_states#DSERROR">
+        <cool:hasStateName>DSWNC_Error</cool:hasStateName>
+        <cool:isFor>dswnc</cool:isFor>
+        <cool:hasSeverity>10</cool:hasSeverity>
+    </rdf:Description>
+
+
+</rdf:RDF>

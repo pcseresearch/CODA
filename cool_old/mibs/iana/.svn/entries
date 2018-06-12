@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="6747"
+   name=""
+   committed-date="2008-02-04T22:05:24.205533Z"
+   url="file:///daqfs/source/svnroot/tags/afecs/1.0/cool/mibs/iana"
+   last-author="gurjyan"
+   kind="dir"
+   uuid="8d8a87be-a126-0410-af38-9fda753bc0f1"
+   repos="file:///daqfs/source/svnroot"
+   revision="7045"/>
+<entry
+   committed-rev="6747"
+   name="IANA-FINISHER-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="79adbea70598c8b2eda1000c554d6f03"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-MALLOC-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="1dcbe59f71650dfcf8a009275ef9e8a2"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-CHARSET-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="e9a8087561e6058b0b8456733259e5b8"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-RTPROTO-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="c25f0db80858c8a7e056bab23bb08422"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANATn3270eTC-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="fdbac55382995fa0cd5da1cb8c9cd076"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-ADDRESS-FAMILY-NUMBERS-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="b849b8877a5a044f5d3687d92a0de202"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-IPPM-METRICS-REGISTRY-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="e925d26393e78be0a678b5e71f0b11fb"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-ITU-ALARM-TC-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="c198ef268088e7edf4d0507376c95bbc"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-LANGUAGE-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="be45a4f037da9693eb767e0110449f87"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANA-PRINTER-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="48061a8746dbde42c55dfc7025222230"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+<entry
+   committed-rev="6747"
+   name="IANAifType-MIB"
+   text-time="2008-06-12T14:47:54.000000Z"
+   committed-date="2008-02-04T22:05:24.205533Z"
+   checksum="899e9000ff1d11377b7312ac35c3cc44"
+   last-author="gurjyan"
+   kind="file"
+   prop-time="2008-06-12T14:47:54.000000Z"/>
+</wc-entries>

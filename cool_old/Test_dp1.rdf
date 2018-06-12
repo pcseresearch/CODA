@@ -1,0 +1,21 @@
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:cool="http://COOLHOME/schema/cool#" >
+
+    <rdf:Description rdf:about="http://COOLHOME/schema/cool#Control">
+        <cool:include rdf:resource="http://COOLHOME/Rocs/roc2.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/Ebs/eb1.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/Ers/er1.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/Codaio/codaio.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/Sms/SCTest_dp1.rdf"/>
+        <cool:include rdf:resource="http://COOLHOME/Options/option1.rdf"/>
+
+        <cool:hasComponent rdf:resource="http://COOLHOME/Rocs/roc2#ROC2"/>
+        <cool:hasComponent rdf:resource="http://COOLHOME/Ebs/eb1#EB1"/>
+        <cool:hasComponent rdf:resource="http://COOLHOME/Ers/er1#ER1"/>
+        <cool:hasComponent rdf:resource="http://COOLHOME/Codaio/codaio1#CODA_0"/>
+        <cool:hasComponent rdf:resource="http://COOLHOME/Sms/SCTest_dp1#RC"/>
+        <cool:hasCodaOption rdf:resource="http://COOLHOME/Options/option1#OPTION"/>
+    </rdf:Description>
+
+</rdf:RDF>

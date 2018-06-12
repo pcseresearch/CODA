@@ -1,0 +1,43 @@
+<rdf:RDF
+xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+xmlns:rdfs='http://www.w3.org/2000/01/rdf-schema#'
+xmlns:cool='http://coda.jlab.org/COOL/cool#'
+>
+
+    <!-- Convention
+            The cool configuration name, the control name and
+            the name of the RC component should be the same.
+            This name defines the runtype of the experiment.
+    -->
+
+<cool:Control rdf:ID="R1AutoStartEvtLimit">
+    <cool:hasComponent rdf:resource="#ROC1"/>
+    <cool:hasComponent rdf:resource="#RC"/>
+    <cool:hasCodaOption rdf:resource="#OPTION"/>
+</cool:Control>
+
+<cool:Option rdf:ID="OPTION">
+    <cool:hasCoda2Component>false</cool:hasCoda2Component>
+    <cool:hasAutoStart>true</cool:hasAutoStart>
+    <cool:hasEventLimit>1000</cool:hasEventLimit>
+    <cool:hasDataLimit>0</cool:hasDataLimit>
+    <cool:hasTokenInterval>200</cool:hasTokenInterval>
+    <cool:hasDataFile>/tmp/test.dat</cool:hasDataFile>
+    <cool:Splitmb>2047</cool:Splitmb>
+</cool:Option>
+
+    <cool:Component rdf:ID="ROC1">
+    <cool:hasIpc>cMsg</cool:hasIpc>
+    <cool:hasType>ROC</cool:hasType>
+    <cool:hasName>Roc1</cool:hasName>
+    <cool:hasPriority>44</cool:hasPriority>
+</cool:Component>
+
+<cool:Component rdf:ID="RC">
+    <cool:hasIpc>cMsg</cool:hasIpc>
+    <cool:hasType>RCS</cool:hasType>
+    <cool:hasName>R1AutoStartEvtLimit</cool:hasName>
+    <cool:hasPriority>77</cool:hasPriority>
+</cool:Component>
+
+</rdf:RDF>
